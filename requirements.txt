@@ -1,0 +1,12 @@
+transformers
+streamlit
+torch  # Use 'tensorflow' if you're using TensorFlow instead of PyTorch
+tensorflow  # Only include if you're using TensorFlow instead of PyTorch
+tf-keras  # Only if you're facing Keras version issues with TensorFlow
+
+
+#transformers: For Hugging Face's models (like sentiment analysis).
+#streamlit: For creating interactive web apps.
+#torch: For PyTorch-based model support.
+#tensorflow: If you're using TensorFlow instead of PyTorch.
+#tf-keras: To fix the compatibility issue git with Keras in TensorFlow 2.x.
